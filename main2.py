@@ -1,0 +1,20 @@
+from telebot import types
+
+keyboard = types.InlineKeyboardMarkup()
+button1 = types.InlineKeyboardButton('Наши сотрудники📱', callback_data='option1')
+button2 = types.InlineKeyboardButton('Доставка🛬', callback_data='option2')
+button3 = types.InlineKeyboardButton('Поиск товара🔍', callback_data='option3')
+button4 = types.InlineKeyboardButton('Legit check ✅', callback_data='option4')
+button5 = types.InlineKeyboardButton('Наш VK📬', callback_data='option5')
+button6 = types.InlineKeyboardButton('Расчёт стоимости💴', callback_data='option6')
+button7 = types.InlineKeyboardButton('Заказать через бота🚀', callback_data='option7')
+keyboard.add(button1)
+keyboard.add(button2)
+keyboard.add(button3)
+keyboard.add(button4)
+keyboard.add(button5)
+keyboard.add(button6)
+keyboard.add(button7)
+
+back = types.InlineKeyboardButton('Назад', callback_data='back')
+back_menu = types.InlineKeyboardMarkup().add(back)
