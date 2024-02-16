@@ -15,7 +15,4 @@ Installation
 To install and run the bot locally, follow these steps:
 
     Clone the repository:
-
-    bash
-
-git clone https://github.com/TWiSTeD707/Telegram_bot_example.git
+        git clone https://github.com/TWiSTeD707/Telegram_bot_example.git
